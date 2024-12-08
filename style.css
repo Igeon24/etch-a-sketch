@@ -2,14 +2,15 @@
     /* flex: 1 1 calc(25%); Adjust the width of each item; 4 items per row minus gap */
     box-sizing: border-box;
     border: 1px solid rgb(0, 0, 0);
+    opacity: 0.5;
 }
 
 .grid-container{
     display: flex;
-    background-color: red;
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
     flex-wrap: wrap;
     border: 1px solid black;
+    margin:  0  auto;
 }
 
